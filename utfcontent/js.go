@@ -1,5 +1,6 @@
 package utfcontent
 
+// U2fApiJs is the content of the u2f.js library from google
 const U2fApiJs = `//Copyright 2014-2015 Google Inc. All rights reserved.
 
 //Use of this source code is governed by a BSD-style

@@ -1,5 +1,6 @@
 package utfcontent
 
+// IndexHTML is the content of the index page
 const IndexHTML = `
 <!DOCTYPE html>
 <html>

@@ -26,6 +26,7 @@ import (
 	"time"
 )
 
+// YouTwoEff incapsulates the appID and boltDB that are used across requests
 type YouTwoEff struct {
 	appID string
 	db    *bolt.DB
@@ -46,6 +47,7 @@ func toJson(i interface{}) string {
 	//return string(bo)
 }
 
+// RegistrationSer is the serialized form of a registration stored in the boltDB
 type RegistrationSer struct {
 	// Raw serialized registration data as received from the token.
 	Raw []byte
